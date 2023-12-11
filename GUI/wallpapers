@@ -41,5 +41,6 @@ password_input.pack(ipady=4,pady=(1,15))
 
 login_btn=Button(root,text='Login here',bg='white',fg='black',command=handle_login)
 login_btn.pack(pady=(10,20))
+login_btn.config(font=('verdana',10))
 
 root.mainloop()
