@@ -8,7 +8,7 @@ def handle_login():
     if email=='sakshipai@gmail.com' and password=="1234":
         messagebox.showinfo('Login Successful')
     else:
-        messagebox.showerror('Error','Llogin Failed')    
+        messagebox.showerror('Error','Login Failed')    
 
 root=Tk()
 root.title('Login Form')
